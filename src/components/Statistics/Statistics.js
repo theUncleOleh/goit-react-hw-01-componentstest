@@ -1,9 +1,10 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 export default function Statistics(props) {
   return (
     <section class="statistics">
-      {props.title ? <h2 class="title">{props.title}</h2> : " "}
+      {props.title && <h2 class="title">{props.title}</h2>}
       <ul class="stat-list">
         {props.stats.map((stat) => (
           <li key={stat.id} class="item">
@@ -35,3 +36,7 @@ export default function Statistics(props) {
     </section>
   );
 }
+
+Statistics.propTypes = {
+  title: PropTypes.string,
+};
