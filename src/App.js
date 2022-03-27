@@ -1,15 +1,15 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import logo from "./logo.svg";
-import "./App.css";
-import user from "./components/Profile/user.json";
-import Profile from "./components/Profile/Profile";
-import data from "./components/Statistics/data.json";
-import Statistics from "./components/Statistics/Statistics";
-import FriendList from "./components/FriendList/FriendList";
-import friends from "./components/FriendList/friends.json";
-import TransactionHistory from "./components/TransactionHistory/TransactionHistory";
-import transactions from "./components/TransactionHistory/transactions.json";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import logo from './logo.svg';
+import './App.css';
+import user from './components/Profile/user.json';
+import Profile from './components/Profile';
+import data from './components/Statistics/data.json';
+import Statistics from './components/Statistics';
+import FriendList from './components/FriendList/FriendList';
+import friends from './components/FriendList/friends.json';
+import TransactionHistory from './components/TransactionHistory/TransactionHistory';
+import transactions from './components/TransactionHistory/transactions.json';
 
 export default function App() {
   return (
